@@ -17,3 +17,4 @@ I wrote a program (img2tt) to convert images to black and white Teletext pages w
 
 img2tt can be built using the Makefile, you then give it an image and it outputsa single 1024 byte Teletext page, which can be concattenated to others to make a set. This raw Teletext pages are in the file txmri.
 
+The BBC Micro assembly code can be built using [beebasm](https://github.com/stardot/beebasm). I used Microsoft Visual Studio code for the editing and build/run using the [beeb-vsc](https://github.com/simondotm/beeb-vsc) plugin by [Simon M](https://github.com/simondotm).
