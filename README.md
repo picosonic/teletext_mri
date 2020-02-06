@@ -1,6 +1,8 @@
 # Teletext MRI
 Teletext animation of my MRI brain scan on BBC Micro computer.
 
+![Teletext MRI animation](teletextmri.gif?raw=true "Teletext MRI animation")
+
 In Teletext on the BBC Micro computer (Mode 7) there are 1024 bytes per Teletext page.
 
 There is space for 40x25 characters to be displayed on screen at once, however to use the graphics characters a special code is needed per line to enable graphics mode.
@@ -17,4 +19,4 @@ I wrote a program (img2tt) to convert images to black and white Teletext pages w
 
 img2tt can be built using the Makefile, you then give it an image and it outputsa single 1024 byte Teletext page, which can be concattenated to others to make a set. This raw Teletext pages are in the file txmri.
 
-The BBC Micro assembly code can be built using [beebasm](https://github.com/stardot/beebasm). I used Microsoft Visual Studio code for the editing and build/run using the [beeb-vsc](https://github.com/simondotm/beeb-vsc) plugin by [Simon M](https://github.com/simondotm).
+The BBC Micro assembly code can be built using [beebasm](https://github.com/stardot/beebasm). I used [Microsoft Visual Studio code](https://code.visualstudio.com/) for the editing and build/run using the [beeb-vsc](https://github.com/simondotm/beeb-vsc) plugin by [Simon M](https://github.com/simondotm).
