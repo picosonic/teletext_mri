@@ -9,7 +9,7 @@ There is space for 40x25 characters to be displayed on screen at once, however t
 
 The Teletext graphics characters are 2x3 pixels each which leaves the effective useable resolution in Mode 7 at 78x75 pixels.
 
-I had an MRI brain scan in July 2009 and was handed all the scan data as JPG and DICOM files on a CD ROM to take to my consultant for review and luckily got to keep the CD. The JPG images have text data overlaid so aren't as useful for remixing. I read up on the DICOM medical imaging file format and wrote code to convert the images contained within them into something more useful.
+I had an MRI brain scan in July 2009 and was handed all the scan data as JPG and DICOM files on a CD ROM to take to my consultant for review and luckily got to keep the CD. The JPG images have text data overlaid so aren't as useful for remixing. I read up on the [DICOM](https://en.wikipedia.org/wiki/DICOM) medical imaging file format and wrote code to convert the images contained within them into something more useful.
 
 I've used the dataset previously to create 3D models utilising edge detection, and ribboning but wanted to make an animation which went through the slices but on retro hardware.
 
