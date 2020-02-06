@@ -12,3 +12,8 @@ I had an MRI brain scan in July 2009 and was handed all the scan data as JPG and
 I've used the dataset previously to create 3D models by edge detection, and ribboning but wanted to make an animation which went through the slices.
 
 The 22 images I used for the Teletext animation were from a set taken on the sagittal plane scanned on Philips Panorama (1.0 Telsa) MRI scanner.
+
+I wrote a program (img2tt) to convert images to black and white Teletext pages with graphics.
+
+img2tt can be built using the Makefile, you then give it an image and it outputsa single 1024 byte Teletext page, which can be concattenated to others to make a set. This raw Teletext pages are in the file txmri.
+
