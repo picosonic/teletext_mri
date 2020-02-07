@@ -3,7 +3,7 @@ Teletext animation of my MRI brain scan on BBC Micro computer.
 
 ![Teletext MRI animation](teletextmri.gif?raw=true "Teletext MRI animation")
 
-In Teletext on the BBC Micro computer (Mode 7) there are 1024 bytes per Teletext page.
+In Teletext on the BBC Micro computer (Mode 7) there are 1024 bytes per Teletext page (when aligned to memory page boundaries).
 
 There is space for 40x25 characters to be displayed on screen at once, however to use the graphics characters a special code is needed per line to enable graphics mode for the remaining characters on that line.
 
